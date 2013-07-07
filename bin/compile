@@ -49,6 +49,9 @@ cd bin
 ln -s ../php/bin/php php
 cd ..
 
+ln -s bin/php/bin/php php
+
+
 export LD_LIBRARY_PATH=$BUILD_DIR/local/lib
 
 # set a slug_id identifier
