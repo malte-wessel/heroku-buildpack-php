@@ -49,8 +49,9 @@ cd bin
 ln -s ../php/bin/php php
 cd ..
 
-ln -s bin/php/bin/php php
-
+cd $BUILD_DIR/www
+ln -s ../bin/php php
+cd $BUILD_DIR
 
 export LD_LIBRARY_PATH=$BUILD_DIR/local/lib
 
